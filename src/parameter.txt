@@ -1,0 +1,17 @@
+prefix_simulation   MVS_SS_Invar-
+
+project_path        /Users/sandro/Documents/Projetos/MVS_SS_Invar
+data_path           /Users/sandro/Documents/Projetos/MVS_SS_Invar/data/MVS_SS_Invar
+
+plot_path           /Users/sandro/Documents/Projetos/MVS_SS_Invar/results/plots
+
+n_clones            96
+
+planets             Mercury
+                    Venus
+                    Earth
+                    Mars
+                    Jupiter
+                    Saturn
+                    Uranus
+                    Neptune
