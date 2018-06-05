@@ -1,7 +1,7 @@
 #!/usr/bin/env gnuplot
 
 # Data path and parameters
-path="/Users/sandro/Documents/Dados_simulacao/MVS_SS_Invar"
+path="/Users/sandro/Documents/Dados_simulacao/MVS_SS_Circ_Invar"
 plot_path = "/Users/sandro/Documents/Projetos/MVS_SS_Invar/results/plots"
 
 n_clones=96
@@ -22,10 +22,10 @@ set label "Uranus"  left at 1e6, 20.3
 set label "Neptune" left at 1e6, 31.5
 
 # Define functions
-filename_jup(n) = sprintf(path."/MVS_SS_Invar-%d/Jupiter.txt", n)
-filename_sat(n) = sprintf(path."/MVS_SS_Invar-%d/Saturn.txt", n)
-filename_ura(n) = sprintf(path."/MVS_SS_Invar-%d/Uranus.txt", n)
-filename_nep(n) = sprintf(path."/MVS_SS_Invar-%d/Neptune.txt", n)
+filename_jup(n) = sprintf(path."/MVS_SS_Circ_Invar-%d/Jupiter.txt", n)
+filename_sat(n) = sprintf(path."/MVS_SS_Circ_Invar-%d/Saturn.txt", n)
+filename_ura(n) = sprintf(path."/MVS_SS_Circ_Invar-%d/Uranus.txt", n)
+filename_nep(n) = sprintf(path."/MVS_SS_Circ_Invar-%d/Neptune.txt", n)
 
 # Plots
 plot for [i=1:n_clones] filename_jup(i) u 1:2  w l notitle,\

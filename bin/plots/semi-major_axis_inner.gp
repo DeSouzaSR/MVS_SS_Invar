@@ -1,7 +1,7 @@
 #!/usr/bin/env gnuplot
 
 # Data path and parameters
-path="/Users/sandro/Documents/Dados_simulacao/MVS_SS_Invar"
+path="/Users/sandro/Documents/Dados_simulacao/MVS_SS_Circ_Invar"
 plot_path = "/Users/sandro/Documents/Projetos/MVS_SS_Invar/results/plots"
 
 n_clones=96
@@ -22,10 +22,10 @@ set label "Earth"   left at 1e6, 1.06
 set label "Mars"    left at 1e6, 1.58
 
 # Define functions
-filename_mer(n) = sprintf(path."/MVS_SS_Invar-%d/Mercury.txt", n)
-filename_ven(n) = sprintf(path."/MVS_SS_Invar-%d/Venus.txt", n)
-filename_ear(n) = sprintf(path."/MVS_SS_Invar-%d/Earth.txt", n)
-filename_mar(n) = sprintf(path."/MVS_SS_Invar-%d/Mars.txt", n)
+filename_mer(n) = sprintf(path."/MVS_SS_Circ_Invar-%d/Mercury.txt", n)
+filename_ven(n) = sprintf(path."/MVS_SS_Circ_Invar-%d/Venus.txt", n)
+filename_ear(n) = sprintf(path."/MVS_SS_Circ_Invar-%d/Earth.txt", n)
+filename_mar(n) = sprintf(path."/MVS_SS_Circ_Invar-%d/Mars.txt", n)
 
 # Plots
 plot for [i=1:n_clones] filename_mer(i) u 1:2  w l notitle,\

@@ -13,10 +13,10 @@
 follow_path="/Users/sandro/Programas/swift/tools"
 
 # Data path
-data_path="/Users/sandro/Documents/Dados_simulacao/MVS_SS_Invar"
+data_path="/Users/sandro/Documents/Dados_simulacao/MVS_SS_Circ_Invar"
 
 # Prefix simulation
-prefix="MVS_SS_Invar-"
+prefix="MVS_SS_Circ_Invar-"
 
 # List of the planets' names
 planets=(Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune)
