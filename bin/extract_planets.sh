@@ -10,10 +10,10 @@
 
 # Paths
 # follow_path
-follow_path="/Users/sandro/Programas/swift/tools"
+follow_path="/home/sandro/Programas/Swift/tools/"
 
 # Data path
-data_path="/Users/sandro/Documents/Dados_simulacao/MVS_SS_Circ_Invar"
+data_path="/home/sandro/Documentos/Dados_simulacao/MVS_SS_Circ_Invar"
 
 # Prefix simulation
 prefix="MVS_SS_Circ_Invar-"
